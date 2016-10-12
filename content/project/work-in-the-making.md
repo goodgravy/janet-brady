@@ -1,6 +1,6 @@
 +++
 menu = "main"
-weight = 20
+weight = 100
 
 categories = []
 date = "2016-10-09T21:24:59+01:00"
