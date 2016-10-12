@@ -83,15 +83,8 @@ paginate = 10
 
   [params.contact]
     hide  = false
-    title = "Get In Touch"
-    content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
-
-    address = [
-      "1234 Somewhere Rd.",
-      "Nashville, TN 00000",
-      "United States"
-    ]
-    phone = "000-000-0000"
+    title = "Send me a message"
+    content = "If you're interested in my work and would like to hear more, get in touch!"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -104,13 +97,13 @@ paginate = 10
       # - send a dummy email yourself to confirm your account
       # - click the confirm link in the email from www.formspree.io
       # - you're done. Happy mailing!
-    email = "hello@example.com"
+    email = "jntbrady1@gmail.com"
 
     [params.contact.form]
       # Set custom strings for the form if your native
       # language isn't English
-      name = "Name"
-      email = "Email"
+      name = "Your Name"
+      email = "Your Email"
       message = "Message"
       submit = "Send message"
 
