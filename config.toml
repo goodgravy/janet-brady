@@ -54,21 +54,27 @@ paginate = 10
     # The images and thumbnails are stored under static/images
     # Create and change subfolders as you like
     [[params.portfolio.gallery]]
-      image = "fulls/Allotment-Invaders.jpg"
-      thumb = "thumbs/Allotment-Invaders.jpg"
-      title = "Allotment Invaders"
-      description = "Collagraph. 40×50cm."
-
-    [[params.portfolio.gallery]]
       image = "fulls/Shifting-Sands-of-the-Kent-Estuary.jpg"
       thumb = "thumbs/Shifting-Sands-of-the-Kent-Estuary.jpg"
       title = "Shifting Sands of the Kent Estuary"
       description = "Superimposed solar etchings. 20×15cm."
 
     [[params.portfolio.gallery]]
+      image = "fulls/Allotment-Invaders.jpg"
+      thumb = "thumbs/Allotment-Invaders.jpg"
+      title = "Allotment Invaders"
+      description = "Collagraph. 40×50cm."
+
+    [[params.portfolio.gallery]]
       image = "fulls/Washing-Lines-Ravenglass.jpg"
       thumb = "thumbs/Washing-Lines-Ravenglass.jpg"
       title = "Washing Lines, Ravenglass"
+      description = ""
+
+    [[params.portfolio.gallery]]
+      image = "fulls/farmers-with-pitchforks.jpg"
+      thumb = "thumbs/farmers-with-pitchforks.jpg"
+      title = ""
       description = ""
 
   [params.recentposts]
