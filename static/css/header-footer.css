@@ -1,0 +1,13 @@
+header#header h1 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+nav#sidebar ul li a,
+nav#sidebar ul li a a:visited {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer#footer .icons a,
+footer#footer .icons a:visited {
+  color: rgba(255, 255, 255, 0.8);
+}
