@@ -10,6 +10,7 @@ title = "Work in the making"
 
 {{< story >}}
 
+<div class="gallery">
 {{% storyboard src="fulls/book-on-sketchpad.jpg" alt="I drew alongside Stevenson" %}}
   In September 2016, we walked the Stevenson Trail from la Bastide Puylaurent to St Jean du Gard.
 
@@ -41,6 +42,7 @@ title = "Work in the making"
 {{% /storyboard %}}
 
 {{% storyboard src="fulls/silhouette.jpg" alt="Silhouette" %}}
+&nbsp;
 {{% /storyboard %}}
 
-
+</div>

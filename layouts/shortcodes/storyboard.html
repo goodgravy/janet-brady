@@ -1,8 +1,12 @@
 <figure class="row">
-  <div class="boop 7u 12u$(small)">
-    <img src="{{ $.Site.BaseURL }}images/{{ .Get "src" }}" alt="{{ .Get "alt" }}">
-  </div>
   <div class="5u 12u$(small)">
     {{ .Inner }}
+  </div>
+  <div class="7u 12u$(small)">
+    <a class="image fit thumb" href="{{ $.Site.BaseURL }}images/{{ .Get "src" }}">
+      <img
+        src="{{ $.Site.BaseURL }}images/{{ .Get "src" }}"
+        alt="{{ .Get "alt" }}">
+    </a>
   </div>
 </figure>
