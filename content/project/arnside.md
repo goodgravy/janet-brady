@@ -3,7 +3,7 @@ menu = "main"
 weight = 30
 
 categories = []
-date = ""
+date = "2016-10-09T18:42:04+01:00"
 tags = []
 title = "Limestone Country Arnside"
 

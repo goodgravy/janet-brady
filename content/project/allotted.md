@@ -47,10 +47,3 @@ title = "Allotted"
 +++
 
 These paintings were in an exhibition at Neo, in Bolton, 2016. Exploring the idea of the land and how we relate to it.
-
-
-  [[gallery.image]]
-    image = "fulls/"
-    thumb = "thumbs/"
-    title = ""
-    description = ""
