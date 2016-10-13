@@ -12,7 +12,6 @@ install:
   - go get -v github.com/spf13/hugo
 
 script:
-  - git submodule update --remote
   - hugo
 
 after_success:
