@@ -7,7 +7,6 @@ install:
 script:
 - hugo
 after_success:
-- echo 'mum.jmsbrdy.com' > ./public/CNAME
 - './deploy.sh'
 env:
   global:
