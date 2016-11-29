@@ -1,10 +1,10 @@
-baseurl = "https://jmsbrdy.com/janet-brady/"
+baseurl = "http://artistjanet.com/"
 languageCode = "en-us"
 title = "Janet Brady"
 theme = "hugo-strata-theme"
 disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-88228902-1"
 # Define how many posts should appear on a site
 paginate = 10
 
