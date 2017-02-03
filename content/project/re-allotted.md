@@ -8,16 +8,22 @@ title = "re: allotted"
 
 [gallery]
   [[gallery.image]]
-    image = "fulls/Neighbouring Plots.jpg"
-    thumb = "thumbs/Neighbouring Plots.jpg"
-    title = "Neighbouring Plots"
-    description = "Collagraphs. I use card or a metal plate support with carborundum, tile cement, PVA, paint or anything that will stick then I produce more texture and detail by burning and inscribing drypoint. 20 × 20cm."
-
-  [[gallery.image]]
     image = "fulls/Pods.jpg"
     thumb = "thumbs/Pods.jpg"
     title = "Pods"
     description = "Collagraph. 20 × 15cm."
+
+  [[gallery.image]]
+    image = "fulls/Invaders.jpg"
+    thumb = "thumbs/Invaders.jpg"
+    title = "The 'Invaders'"
+    description = "Collagraph plate. Built from mixed media on a card board. 50 × 35cm."
+
+  [[gallery.image]]
+    image = "fulls/Neighbouring Plots.jpg"
+    thumb = "thumbs/Neighbouring Plots.jpg"
+    title = "Neighbouring Plots"
+    description = "Collagraphs. I use card or a metal plate support with carborundum, tile cement, PVA, paint or anything that will stick then I produce more texture and detail by burning and inscribing drypoint. 20 × 20cm."
 
   [[gallery.image]]
     image = "fulls/Rhubarb Patch.jpg"
