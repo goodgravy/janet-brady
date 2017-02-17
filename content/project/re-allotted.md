@@ -20,10 +20,10 @@ title = "re: allotted"
     description = "Collagraph 20 × 15cm."
 
   [[gallery.image]]
-    image = "fulls/Neighbouring Plots.jpg"
-    thumb = "thumbs/Neighbouring Plots.jpg"
-    title = "Neighbouring Plots"
-    description = "Collagraphs. I use card or a metal plate support with carborundum, tile cement, PVA, paint or anything that will stick then I produce more texture and detail by burning and inscribing drypoint. 20 × 20cm."
+    image = "fulls/Gardeners year.jpg"
+    thumb = "thumbs/Gardeners year.jpg"
+    title = "Gardener's year"
+    description = "Solar etching. 30 × 20cm."
 
   [[gallery.image]]
     image = "fulls/Shed.jpg"
@@ -32,10 +32,10 @@ title = "re: allotted"
     description = "Collagraph 20 × 15cm."
 
   [[gallery.image]]
-    image = "fulls/Gardeners year.jpg"
-    thumb = "thumbs/Gardeners year.jpg"
-    title = "Gardener's year"
-    description = "Solar etching. 30 × 20cm."
+    image = "fulls/Neighbouring Plots.jpg"
+    thumb = "thumbs/Neighbouring Plots.jpg"
+    title = "Neighbouring Plots"
+    description = "Collagraphs. I use card or a metal plate support with carborundum, tile cement, PVA, paint or anything that will stick then I produce more texture and detail by burning and inscribing drypoint. 20 × 20cm."
 +++
 
 Here is some of the work I'm exhibiting at [St George's Gallery, Bolton](https://www.facebook.com/TheGalleryAtSGH/) this February. I've made collagraphs out of some sketches I did visiting various allotments.
