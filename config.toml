@@ -51,31 +51,41 @@ paginate = 10
     hide  = false
     title = "Recent Work"
 
-    # The images and thumbnails are stored under static/images
-    # Create and change subfolders as you like
     [[params.portfolio.gallery]]
-      image = "fulls/Washing-Lines-Ravenglass.jpg"
-      thumb = "thumbs/Washing-Lines-Ravenglass.jpg"
-      title = "Washing Lines, Ravenglass"
-      description = ""
+      image = "fulls/Cutting through Matlock Gorge.jpg"
+      thumb = "thumbs/Cutting through Matlock Gorge.jpg"
+      title = "Cutting through Matlock Gorge"
+      description = "40 × 30cm watercolour."
 
     [[params.portfolio.gallery]]
-      image = "fulls/Allotment-Invaders.jpg"
-      thumb = "thumbs/Allotment-Invaders.jpg"
-      title = "Allotment Invaders"
-      description = "Collagraph. 40×50cm."
+      image = "fulls/Old Harry Rocks.jpg"
+      thumb = "thumbs/Old Harry Rocks.jpg"
+      title = "Old Harry Rocks"
+      description = "20 × 15cm plaster etching"
 
     [[params.portfolio.gallery]]
-      image = "fulls/Shifting-Sands-of-the-Kent-Estuary.jpg"
-      thumb = "thumbs/Shifting-Sands-of-the-Kent-Estuary.jpg"
-      title = "Shifting Sands of the Kent Estuary"
-      description = "Superimposed solar etchings. 20×15cm."
+      image = "fulls/Broken.jpg"
+      thumb = "thumbs/Broken.jpg"
+      title = "Broken"
+      description = "90 × 60cm acrylic"
 
     [[params.portfolio.gallery]]
-      image = "fulls/farmers-with-pitchforks.jpg"
-      thumb = "thumbs/farmers-with-pitchforks.jpg"
-      title = ""
-      description = ""
+      image = "fulls/Den.jpg"
+      thumb = "thumbs/Den.jpg"
+      title = "Den"
+      description = "20 × 15cm solar etching monoprint"
+
+    [[params.portfolio.gallery]]
+      image = "fulls/Chevin.jpg"
+      thumb = "thumbs/Chevin.jpg"
+      title = "Chevin"
+      description = "30 × 20cm oils"
+
+    [[params.portfolio.gallery]]
+      image = "fulls/Prophecy.jpg"
+      thumb = "thumbs/Prophecy.jpg"
+      title = "Prophecy"
+      description = "50 × 50cm acrylic and mixed media"
 
   [params.recentposts]
     hide  = true
