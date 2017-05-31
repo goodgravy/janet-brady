@@ -52,16 +52,16 @@ paginate = 10
     title = "Recent Work"
 
     [[params.portfolio.gallery]]
-      image = "fulls/Cutting through Matlock Gorge.jpg"
-      thumb = "thumbs/Cutting through Matlock Gorge.jpg"
-      title = "Cutting through Matlock Gorge"
-      description = "40 × 30cm watercolour."
-
-    [[params.portfolio.gallery]]
       image = "fulls/Old Harry Rocks.jpg"
       thumb = "thumbs/Old Harry Rocks.jpg"
       title = "Old Harry Rocks"
       description = "20 × 15cm plaster etching"
+
+    [[params.portfolio.gallery]]
+      image = "fulls/Sophie.jpg"
+      thumb = "thumbs/Sophie.jpg"
+      title = "Sophie aged 9"
+      description = "20 × 30cm approx watercolour."
 
     [[params.portfolio.gallery]]
       image = "fulls/Broken.jpg"
@@ -70,16 +70,22 @@ paginate = 10
       description = "90 × 60cm acrylic"
 
     [[params.portfolio.gallery]]
-      image = "fulls/Den.jpg"
-      thumb = "thumbs/Den.jpg"
-      title = "Den"
-      description = "20 × 15cm solar etching monoprint"
+      image = "fulls/Cutting through Matlock Gorge.jpg"
+      thumb = "thumbs/Cutting through Matlock Gorge.jpg"
+      title = "Cutting through Matlock Gorge"
+      description = "40 × 30cm watercolour."
 
     [[params.portfolio.gallery]]
       image = "fulls/Chevin.jpg"
       thumb = "thumbs/Chevin.jpg"
       title = "Chevin"
       description = "30 × 20cm oils"
+
+    [[params.portfolio.gallery]]
+      image = "fulls/Den.jpg"
+      thumb = "thumbs/Den.jpg"
+      title = "Den"
+      description = "20 × 15cm solar etching monoprint"
 
     [[params.portfolio.gallery]]
       image = "fulls/Prophecy.jpg"
