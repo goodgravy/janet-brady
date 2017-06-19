@@ -52,10 +52,22 @@ paginate = 10
     title = "Recent Work"
 
     [[params.portfolio.gallery]]
+      image = "fulls/underground networking.JPG"
+      thumb = "thumbs/underground networking.JPG"
+      title = "Underground Networking"
+      description = "Mixed media including silk fibres. 91 × 61cm."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/and all was for an apple.JPG"
+      thumb = "thumbs/and all was for an apple.JPG"
+      title = "...and all was for an apple..."
+      description = "Acrylic and Oil. 61 × 76cm."
+
+    [[params.portfolio.gallery]]
       image = "fulls/Old Harry Rocks.jpg"
       thumb = "thumbs/Old Harry Rocks.jpg"
       title = "Old Harry Rocks"
-      description = "20 × 15cm plaster etching"
+      description = "20 × 15cm plaster etching."
 
     [[params.portfolio.gallery]]
       image = "fulls/Sophie.jpg"
