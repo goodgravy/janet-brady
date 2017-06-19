@@ -6,8 +6,9 @@ install:
 - go get -v github.com/spf13/hugo
 script:
 - hugo
-after_success:
-- './deploy.sh'
-env:
-  global:
-    secure: s2JEcFgFpYPuC64DVKN8OwQnSQnBU8eM65vqoD9ZgFTaFskobeMrtVyZR+m+CQ2O+64BGqN6qOpcjVxjO+9c9TMmKXA0vODeb61liQnxnPB2uYbckkfDCH2lLdZc5Nxk5qz2ThD3TPgWaFKeb+GEXR3D7sI95jS/NQzzeVsQOP3IwMiEK0LjBTlzdNiXzeDvWWHR5e5MngleCpRFg5xHRFMvYasLWZTsEDvvYGkXKQXeWREFD9uNiuJrlnfzZhoPmRXsa0HdeH7U+2Bl2BXdDK/cKKLOSVOlyst8vkxUDcOMqOLbqD5sjWdF+5thKp7TilMUt0yEq4NJG8ifmV/Ye2Wb4U2QN/jm2DXmevmxBA0TkClGjzzIa0bS2Q76ay0bkqZhq9uHc7/CRRExftiICnDzbWMBTIxFgztVBaQWMupllJ4Sz3Y1UYX6Fn+Cm51z9t5w6J24dKxL9T/p3AQLwPRqthUqUf1cejEInDSwe64FoNxYh/bLFnsvOJ6KeevXuNydctgl0nlr3qb03n7n9uJzByw8JL+4viP6Hu5jO+rft9I5n8jblEgFdco8RdGDh69dv/UOkhfxyDK3qNpmEYMJI+OtDsL9TAF34kZe/46CzcmT924s6e36SMKL1gMGXiMfZbcf90x7HgiKwFH1kQf4FWxF5pO2NEVJYuXgjiI=
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: source
