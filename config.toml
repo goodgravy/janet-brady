@@ -43,8 +43,11 @@ paginate = 10
 
   [params.about]
     hide  = false
-    title = "About me"
-    content = "I'm wondering as I walk… could this mean disaster! I see settlements and trackways making patterns which evolve and dissolve in time. I see patterns in natural landscapes which evolve and dissolve too. Over millennia life comes and goes leaving a particular stamp on Place. The place leaves its own mark on the people too."
+    title = "News"
+    content = """I have an upcoming solo exhibition at [The Gallery at St. George's House](https://www.facebook.com/TheGalleryAtSGH/) in November. If you're in the area, I'd love to see you there!
+
+### About me
+I'm wondering as I walk… could this mean disaster! I see settlements and trackways making patterns which evolve and dissolve in time. I see patterns in natural landscapes which evolve and dissolve too. Over millennia life comes and goes leaving a particular stamp on Place. The place leaves its own mark on the people too."""
 
 
   [params.portfolio]
