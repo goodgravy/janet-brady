@@ -4,7 +4,7 @@ weight = 40
 tags = [ ]
 categories = [ ]
 date = "2017-01-15T16:23:56+01:00"
-title = "re: allotted"
+title = "Re:allotted"
 
 [gallery]
   [[gallery.image]]

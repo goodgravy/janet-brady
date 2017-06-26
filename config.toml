@@ -43,12 +43,16 @@ paginate = 10
 
   [params.about]
     hide  = false
-    title = "News"
-    content = """I have an upcoming solo exhibition at [The Gallery at St. George's House](https://www.facebook.com/TheGalleryAtSGH/) in November. If you're in the area, I'd love to see you there!
+    title = "News Updates"
+    content = """\
+### Re:allotted joint exhibition
+I am in a joint exhibition with other [neo (Bolton)](http://www.neoartists.co.uk/) members in [The Brewery Arts Centre, Kendal](https://www.breweryarts.co.uk/) from 26th July to 1st September.
 
-### About me
-I'm wondering as I walk… could this mean disaster! I see settlements and trackways making patterns which evolve and dissolve in time. I see patterns in natural landscapes which evolve and dissolve too. Over millennia life comes and goes leaving a particular stamp on Place. The place leaves its own mark on the people too."""
+Please see their website for opening hours. There's no Opening event... just come along whenever you fancy a trip to the Lakes. If I possibly can I'll meet up with you if you contact me. It's a lively place to go... all sorts on.
 
+### Solo exhibition
+I have an upcoming solo exhibition at [The Gallery at St. George's House](https://www.facebook.com/TheGalleryAtSGH/), in November and December - precise dates and details coming soon. If you're in the area, I'd love to see you there!
+"""
 
   [params.portfolio]
     hide  = false
@@ -123,9 +127,6 @@ I'm wondering as I walk… could this mean disaster! I see settlements and track
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
-  name = "Home"
-  url  = "/"
-  weight = 0
 
 # [[menu.main]]
 #   name = "Projects"
