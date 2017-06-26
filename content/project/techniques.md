@@ -8,7 +8,7 @@ title = "Techniques and media"
 
 * Doodling at school under the desk... funny to see their influence still coming through!
 * Drawing with pencil, pastels pen and charcoal of course but more unusually with a laboratory dropper and inks -- love that
-* Watercolours -- often very wet and fluid...sometimes incorporating raindrops!
+* Watercolours -- often very wet and fluid... sometimes incorporating raindrops!
 * Inks -- same. I could mention here my delight in preparing the first layer with inks etc worked and moved with clingfilm
 * Some oils but as I'm often on a walking trip they're not so practical
 * Acrylics
