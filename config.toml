@@ -18,7 +18,7 @@ defaultContentLanguage = "en-us"
 title = "Janet Brady: artist"
 theme = "hugo-tranquilpeak-theme"
 # disqusShortname = "hugo-tranquilpeak-theme"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-88228902-1"
 paginate = 7
 canonifyurls = true
 
