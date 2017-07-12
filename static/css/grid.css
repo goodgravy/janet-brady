@@ -1,17 +1,16 @@
 .grid-sizer, .grid-item {
-  width: 244px;
+  width: 326px;
 }
 .grid-item {
   float: left;
-  height: 155px;
-  margin-bottom: 9px;
+  height: 200px;
+  margin-bottom: 11px;
 }
 
-.grid-item.grid-item-width2 { width: 497px; }   /* 244 * 2 + 9     */
-.grid-item.grid-item-width3 { width: 750px; }   /* 244 * 3 + 9 * 2 */
-.grid-item.grid-item-height2 { height: 319px; } /* 155 * 2 + 9     */
-.grid-item.grid-item-height3 { height: 483px; } /* 155 * 3 + 9 * 2 */
-.grid-item.grid-item-height4 { height: 647px; } /* 155 * 4 + 9 * 3 */
+.grid-item.grid-item-width2 { width: 663px; }   /* 326 * 2 + 11     */
+.grid-item.grid-item-width3 { width: 989px; }   /* 326 * 3 + 11 * 2 */
+.grid-item.grid-item-height2 { height: 411px; } /* 200 * 2 + 11     */
+.grid-item.grid-item-height3 { height: 622px; } /* 200 * 3 + 11 * 2 */
 
 
 .grid-item img {

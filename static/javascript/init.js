@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   $('.grid').masonry({
     // options
     itemSelector: '.grid-item',
-    gutter: 9,
+    gutter: 11,
     columnWidth: '.grid-sizer',
   });
 
