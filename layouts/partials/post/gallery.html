@@ -2,6 +2,7 @@
   {{ $galleryLength := len .Params.masonryGallery }}
   {{ if gt $galleryLength 0 }}
     <div class="grid">
+      <div class="grid-sizer"></div>
       {{ range .Params.masonryGallery }}
       <div class="grid-item
                   grid-item-height{{ .Height}}

@@ -1,6 +1,8 @@
+.grid-sizer, .grid-item {
+  width: 244px;
+}
 .grid-item {
   float: left;
-  width: 244px;
   height: 155px;
   margin-bottom: 9px;
 }

@@ -69,7 +69,7 @@ canonifyurls = true
 [[menu.misc]]
   weight = 4
   identifier = "arnside"
-  name = "Limestone Country Arnside"
+  name = "Arnside"
   url = "/project/arnside"
 [[menu.misc]]
   weight = 5

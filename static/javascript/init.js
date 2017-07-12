@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
   $('.grid').masonry({
     // options
     itemSelector: '.grid-item',
-    gutter: 5,
+    gutter: 9,
+    columnWidth: '.grid-sizer',
   });
 
   $(".jcb-fancybox").fancybox({
