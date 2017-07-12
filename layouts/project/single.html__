@@ -21,3 +21,55 @@
   </div>
 </section>
 {{ end }}
+
+<div class="grid">
+  <div class="grid-item grid-item-height2">
+    <a class="my-fancybox" href="/images/fulls/Gryke.jpg" data-fancybox-group="group">
+      <img src="/images/thumbs/Gryke.jpg" alt="Gryke. Plaster sculpture, 40 × 15cm." />
+    </a>
+  </div>
+
+  <div class="grid-item grid-item-width2 grid-item-height2">
+    <a class="my-fancybox" href="/images/fulls/Shoreline-at-Silverdale.jpg" data-fancybox-group="group">
+      <img src="/images/thumbs/Shoreline-at-Silverdale.jpg" alt="Shoreline at Silverdale. Solar etching and monoprint, 35 × 25cm." />
+    </a>
+  </div>
+
+  <div class="grid-item">
+    <a class="my-fancybox" href="/images/fulls/Trapped-Grykes-eye-view.jpg" data-fancybox-group="group">
+      <img src="/images/thumbs/Trapped-Grykes-eye-view.jpg" alt="Trapped… gryke's eye-view. Collage, 30 × 20cm." />
+    </a>
+  </div>
+
+
+
+[gallery]
+  [[gallery.image]]
+    image = "fulls/Gryke.jpg"
+    thumb = "thumbs/Gryke.jpg"
+    title = "Gryke"
+    description = "Plaster sculpture. 40 × 15cm"
+
+  [[gallery.image]]
+    image = "fulls/Burning-the-Brash.jpg"
+    thumb = "thumbs/Burning-the-Brash.jpg"
+    title = "Burning the Brash"
+    description = "Pen and ink. 25 × 15cm."
+
+  [[gallery.image]]
+    image = "fulls/Trapped-Grykes-eye-view.jpg"
+    thumb = "thumbs/Trapped-Grykes-eye-view.jpg"
+    title = "Trapped… gryke's eye-view"
+    description = "Collage. 30 × 20cm."
+
+  [[gallery.image]]
+    image = "fulls/Shoreline-at-Silverdale.jpg"
+    thumb = "thumbs/Shoreline-at-Silverdale.jpg"
+    title = "Shoreline at Silverdale"
+    description = "Solar etching and monoprint. 35 × 25cm."
+
+  [[gallery.image]]
+    image = "fulls/Forever-Yew.jpg"
+    thumb = "thumbs/Forever-Yew.jpg"
+    title = "Forever Yew"
+    description = "Pen and ink. 60 × 40cm."

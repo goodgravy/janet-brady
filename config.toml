@@ -84,7 +84,7 @@ canonifyurls = true
 [[menu.misc]]
   weight = 7
   identifier = "pictures-from-bolton"
-  name = "Pictures from the exhibition (Bolton)"
+  name = "Neo exhibition"
   url = "/project/pictures-from-bolton"
 
 [params]
@@ -130,7 +130,7 @@ canonifyurls = true
   coverImage = "bg.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
-  # imageGallery = true
+  imageGallery = true
 
   # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
   thumbnailImage = true

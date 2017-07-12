@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
   $('.grid').masonry({
     // options
     itemSelector: '.grid-item',
-    gutter: 9,
+    gutter: 5,
   });
 
-  $(".my-fancybox").fancybox({
+  $(".jcb-fancybox").fancybox({
     beforeShow: function() {
         var alt = this.element.find('img').attr('alt');
 
