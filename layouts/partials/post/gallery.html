@@ -1,0 +1,23 @@
+{{ if and .Site.Params.imageGallery .Params.masonryGallery }}
+  {{ $galleryLength := len .Params.masonryGallery }}
+  {{ if gt $galleryLength 0 }}
+    <div class="grid">
+      <div class="grid-sizer"></div>
+      {{ range .Params.masonryGallery }}
+      <div class="grid-item
+                  grid-item-height{{ .Height}}
+                  grid-item-width{{ .Width}}">
+        <a class="jcb-fancybox" href="{{ $.Site.BaseURL }}images/fulls/{{ .Href }}" data-fancybox-group="gallery-{{ $.UniqueID }}">
+          <img src="{{ $.Site.BaseURL }}images/thumbs/{{ .Href }}" alt="{{ .Title }}" />
+        </a>
+        <div>
+          <span class="title">{{ .Title }}</span>
+          <span class="description">{{ .Description }}</span>
+        </div>
+      </div>
+      {{ end }}
+      <div style="clear: both"></div>
+    </div>
+    {{ end }}
+{{ end }}
+
