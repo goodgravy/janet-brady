@@ -1,3 +1,7 @@
+.grid {
+  margin-top: 2em;
+}
+
 .grid-sizer, .grid-item {
   width: 326px;
 }
