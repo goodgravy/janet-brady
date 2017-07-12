@@ -8,7 +8,7 @@
         class="{{ with .Params.coverimage }}hasCover{{ end }}
                {{ if eq .Params.covermeta "out" }}hasCoverMetaOut{{ else }}hasCoverMetaIn{{ end }}
                {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
-        <section class="postShorten-group main-content-wrap">
+        <section class="font-merryweather main-content-wrap">
           {{ .Content }}
           <h2>Recent Work</h2>
           {{ partial "post/gallery.html" . }}

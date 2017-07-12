@@ -6,14 +6,16 @@ title = "Pembrokeshire"
 
 [[masonryGallery]]
   Href = "Cutting Edge, Pembrokeshire.jpg"
-  Title = "Cutting Edge, Pembrokeshire. Collagraph. 90 × 70cm."
+  Title = "Cutting Edge, Pembrokeshire"
+  Description = "Collagraph. 90 × 70cm."
   Height = 2
 
 [[masonryGallery]]
   Href = "Wolfs Castle.jpg"
   Height = 2
   Width = 2
-  Title = "Wolf's Castle. 40 × 30cm."
+  Title = "Wolf's Castle"
+  Description = "40 × 30cm."
 +++
 
 Here is some work from a short trip in November 2016.

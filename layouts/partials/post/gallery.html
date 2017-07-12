@@ -10,6 +10,10 @@
         <a class="jcb-fancybox" href="{{ $.Site.BaseURL }}images/fulls/{{ .Href }}" data-fancybox-group="gallery-{{ $.UniqueID }}">
           <img src="{{ $.Site.BaseURL }}images/thumbs/{{ .Href }}" alt="{{ .Title }}" />
         </a>
+        <div>
+          <span class="title">{{ .Title }}</span>
+          <span class="description">{{ .Description }}</span>
+        </div>
       </div>
       {{ end }}
       <div style="clear: both"></div>

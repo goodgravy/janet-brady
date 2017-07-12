@@ -2,29 +2,35 @@
 [[masonryGallery]]
   Href = "underground networking.JPG"
   Width = 2
-  title = "Underground Networking. Mixed media including silk fibres. 91 × 61cm."
+  Title = "Underground Networking"
+  Description = "Mixed media including silk fibres. 91 × 61cm."
 
 [[masonryGallery]]
   Href = "and all was for an apple.JPG"
   Height = 2
-  title = "...and all was for an apple.... Acrylic and Oil. 61 × 76cm."
+  Title = "…and all was for an apple…"
+  Description = "Acrylic and Oil. 61 × 76cm."
 
 [[masonryGallery]]
   Href = "Cutting through Matlock Gorge.jpg"
-  title = "Cutting through Matlock Gorge. 40 × 30cm watercolour."
+  Title = "Cutting through Matlock Gorge"
+  Description = "40 × 30cm watercolour."
 
 [[masonryGallery]]
   Href = "Prophecy.jpg"
   Height = 2
-  title = "Prophecy. 50 × 50cm acrylic and mixed media"
+  Title = "Prophecy"
+  Description = "50 × 50cm acrylic and mixed media"
 
 [[masonryGallery]]
   Href = "Den.jpg"
-  title = "Den. 20 × 15cm solar etching monoprint"
+  Title = "Den"
+  Description = "20 × 15cm solar etching monoprint"
 
 [[masonryGallery]]
   Href = "Chevin.jpg"
-  title = "Chevin. 30 × 20cm oils"
+  Title = "Chevin"
+  Description = "30 × 20cm oils"
 +++
 # News Updates
 
