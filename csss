@@ -1,0 +1,6 @@
+.grid-item.grid-item-width2 { width: 497px; }   /* 244 * 2 + 9     */
+.grid-item.grid-item-width3 { width: 750px; }   /* 244 * 3 + 9 * 2 */
+.grid-item.grid-item-height2 { height: 319px; } /* 155 * 2 + 9     */
+.grid-item.grid-item-height3 { height: 483px; } /* 155 * 3 + 9 * 2 */
+.grid-item.grid-item-height4 { height: 647px; } /* 155 * 4 + 9 * 3 */
+

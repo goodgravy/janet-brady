@@ -1,134 +1,176 @@
-baseurl = "http://artistjanet.com/"
+# Tranquilpeak
+# Version : 0.3.1-BETA
+# Author : Thibaud Leprêtre
+
+# I STRONGLY recommend you to use a CDN to speed up loading of pages.
+# There is many free CDN like Cloudinary or you can also use indirectly
+# by using services like Google Photos.
+
+# If you want to store images yourself, please read this guidelines:
+# For users, if you only use this theme, put your images directly in `source/assets/images` folder
+# But if you want to add local images, you can put your images directly in `source/assets/images` folder
+# For developpers, if you modify this theme, put your images in `source/images` folder and
+# use grunt task `build` to synchronize assets
+
+baseurl = "artistjanet.com"
 languageCode = "en-us"
-title = "Janet Brady"
-theme = "hugo-strata-theme"
-disqusShortname = ""
-# Enable Google Analytics by inserting your tracking code
-googleAnalytics = "UA-88228902-1"
-# Define how many posts should appear on a site
-paginate = 10
+defaultContentLanguage = "en-us"
+title = "Janet Brady: artist"
+theme = "hugo-tranquilpeak-theme"
+# disqusShortname = "hugo-tranquilpeak-theme"
+# googleAnalytics = "UA-123-45"
+paginate = 7
+canonifyurls = true
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[author]
+  name = "Janet Brady"
+  bio = "To wander and wonder at people and places is fantastic. Here are some of the images I've seen on my journey so far…"
+  job = "Artist"
+  location = "Bury, Lancashire"
+  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
+  # gravatarEmail = "thibaud.lepretre@gmail.com"
+  # Your profile picture
+  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
+  picture = "/images/avatar.jpg"
+  # Your Twitter username without the @. E.g : thibaudlepretre
+  # twitter = "thibaudlepretre"
+  # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
+  # googlePlus = "+ThibaudLepretre"
+
+# Menu Configuration
+[[menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  url = "/"
+
+[[menu.main]]
+  weight = 2
+  identifier = "about"
+  name = "About me"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  url = "/about"
+[[menu.main]]
+  weight = 3
+  identifier = "techniques"
+  name = "Techniques"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-paint-brush\"></i>"
+  url = "/page/techniques"
+
+[[menu.misc]]
+  weight = 4
+  identifier = "arnside"
+  name = "Limestone Country Arnside"
+  url = "/project/arnside"
+[[menu.misc]]
+  weight = 5
+  identifier = "re-allotted"
+  name = "Re:allotted"
+  url = "/project/re-allotted"
+[[menu.misc]]
+  weight = 6
+  identifier = "pembrokeshire"
+  name = "Pembrokeshire"
+  url = "/project/pembrokeshire"
+[[menu.misc]]
+  weight = 7
+  identifier = "pictures-from-bolton"
+  name = "Pictures from the exhibition (Bolton)"
+  url = "/project/pictures-from-bolton"
 
 [params]
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
-  name = "Janet Brady"
-  description = "I'm an artist"
+  # Customize date format use to render blog post date, categories and other
+  # You must use date format used by Go Time package https://golang.org/pkg/time/
+  # Months (not work with short month like "jan", "feb", etc) are translated if translation exists on i18n folders
+  # Default format is: January 2, 2006 
+  # dateFormat = "2 January 2006"
 
-  # Format dates with Go's time formatting
-  date_format = "2006-01-02"
+  # Global keywords configuration. Following keywords will be add to every pages
+  # keywords = ["development", "next-gen"]
 
-  # Add custom assets with their paths relative to the static folder
-  custom_js   = []
-  custom_css  = ["css/header-footer.css"]
+  # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
+  clearReading = true
 
-  [params.sidebar]
-    # Replace the avatar with a picture of your own under static/images
-    avatar = "avatar.jpg"
-    # Use Markdown to format the string. This works nearly all over the theme
-    bio = "To wander and wonder at people and places is fantastic. Here are some of the images I've seen on my journey so far…"
+  # Define categories will create hierarchy between parents: `categories = ["foo", "bar"]` will consider "bar" a sub-category of "foo". 
+  # If false it will flat categories.
+  hierarchicalCategories = false
 
-    # The icons will be shown if you enter your username
-    twitter = ""
-    github = ""
-    dribbble = ""
-    facebook = ""
-    googleplus = ""
-    flickr = ""
-    linkedin = ""
+  description = "I'm an artist living in Bury, Lancashire. I'm pleased to share some of my work and thoughts with you."
 
-    copyright = [
-      "&copy; Janet Brady"
-    ]
+  # Customization
+  # Define the behavior of the sidebar
+  # 1: Display extra large sidebar on extra large screen, large sidebar on large screen,
+  #    medium sidebar on medium screen and header bar on small screen and
+  # extra large sidebar is swiped on extra large screen and large sidebar on all lower screen (default)
+  # 2: Display large sidebar on large screen, medium sidebar on medium screen and
+  #    header bar on small screen and large sidebar is swiped
+  # 3: Display medium sidebar on large and medium screen and header bar on small screen and
+  #    medium sidebar is swiped
+  # 4: Display header bar on all screens, extra large sidebar is swiped on extra large screen and
+  #    large sidebar is swiped on all lower screens
+  # 5: Display header bar on all screens and large sidebar is swiped on large screen
+  # 6: Display header bar on all screens and medium sidebar is swiped
+  sidebarBehavior = 1
 
+  # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
+  # There is many free CDN like Cloudinary or you can also use indirectly
+  # by using services like Google Photos.
+  # Current image is on AWS S3 and delivered by AWS CloudFront.
+  # Otherwise put your image in folder `static/_images/` (development)  or in `source/assets/images/` if you can't or don't want to build the theme,
+  # and use relative url : `your-image.png`
+  coverImage = "bg.jpg"
 
-  [params.about]
-    hide  = false
-    title = "News Updates"
-    content = """\
-### Re:allotted joint exhibition
-I am in a joint exhibition with other [neo (Bolton)](http://www.neoartists.co.uk/) members in [The Brewery Arts Centre, Kendal](https://www.breweryarts.co.uk/) from 26th July to 1st September.
+  # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
+  # imageGallery = true
 
-Please see their website for opening hours. There's no Opening event... just come along whenever you fancy a trip to the Lakes. If I possibly can I'll meet up with you if you contact me. It's a lively place to go... all sorts on.
+  # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
+  thumbnailImage = true
+  # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
+  # Set this value to `right` if you have old posts to keep the old style on them
+  # and define `thumbnailImagePosition` on a post to overwrite this setting
+  thumbnailImagePosition = "bottom"
+  # Automatically select the cover image or the first photo from the gallery of a post if there is no thumbnail image as the thumbnail image
+  # Set this value to `true` if you have old posts that use the cover image or the first photo as the thumbnail image
+  # and set `autoThumbnailImage` to `false` on a post to overwrite this setting
+  autoThumbnailImage = true
 
-### Solo exhibition
-I have an upcoming solo exhibition at [The Gallery at St. George's House](https://www.facebook.com/TheGalleryAtSGH/), on weekdays from 25th September to 3rd November. If you're in the area, I'd love to see you there!
-"""
+  # Your favicon path, default is "/favicon.png"
+  favicon = "/favicon.ico"
 
-  [params.portfolio]
-    hide  = false
-    title = "Recent Work"
+  # Header configuration
+  # The link at the right of the header is customizable
+  # You can add a link (as an icon) at the right of the header instead of the author's gravatar image or author's picture.
+  # By default, author's gravatar or author's picture is displayed.
+  #     url: /#search
+  #     icon: search
+  #     class: st-search-show-outputs
 
-    [[params.portfolio.gallery]]
-      image = "fulls/underground networking.JPG"
-      thumb = "thumbs/underground networking.JPG"
-      title = "Underground Networking"
-      description = "Mixed media including silk fibres. 91 × 61cm."
+  # Custom CSS. Put here your custom CSS files. They are loaded after the theme CSS;
+  # they have to be referred from static root. Example
+  customCSS = ["css/grid.css"]
 
-    [[params.portfolio.gallery]]
-      image = "fulls/and all was for an apple.JPG"
-      thumb = "thumbs/and all was for an apple.JPG"
-      title = "...and all was for an apple..."
-      description = "Acrylic and Oil. 61 × 76cm."
+  # Custom JS. Put here your custom JS files. They are loaded after the theme JS;
+  # they have to be referred from static root. Example
+  customJS = ["javascript/masonry.pkgd.min.js", "javascript/init.js"]
 
-    [[params.portfolio.gallery]]
-      image = "fulls/Cutting through Matlock Gorge.jpg"
-      thumb = "thumbs/Cutting through Matlock Gorge.jpg"
-      title = "Cutting through Matlock Gorge"
-      description = "40 × 30cm watercolour."
+  [params.header.rightLink]
+    class = ""
+    icon = ""
+    url = "/about"
 
-    [[params.portfolio.gallery]]
-      image = "fulls/Den.jpg"
-      thumb = "thumbs/Den.jpg"
-      title = "Den"
-      description = "20 × 15cm solar etching monoprint"
+  # Customize like of athor avatar in sidebar
+  [params.sidebar.profile]
+    url = "/about"
 
-    [[params.portfolio.gallery]]
-      image = "fulls/Chevin.jpg"
-      thumb = "thumbs/Chevin.jpg"
-      title = "Chevin"
-      description = "30 × 20cm oils"
-
-    [[params.portfolio.gallery]]
-      image = "fulls/Prophecy.jpg"
-      thumb = "thumbs/Prophecy.jpg"
-      title = "Prophecy"
-      description = "50 × 50cm acrylic and mixed media"
-
-  [params.recentposts]
-    hide  = true
-    title = "Posts"
-
-  [params.contact]
-    hide  = false
-    title = "Send me a message"
-    content = "If you're interested in my work and would like to hear more, get in touch!"
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-      #
-      # What you need to do for the setup?
-      #
-      # - set your email address under 'email' below
-      # - upload the generated site to your server
-      # - send a dummy email yourself to confirm your account
-      # - click the confirm link in the email from www.formspree.io
-      # - you're done. Happy mailing!
-    email = "jntbrady1@gmail.com"
-
-    [params.contact.form]
-      # Set custom strings for the form if your native
-      # language isn't English
-      name = "Your Name"
-      email = "Your Email"
-      message = "Message"
-      submit = "Send message"
-
-
-# Menu links that appear on the left sidebar
-[[menu.main]]
-
-# [[menu.main]]
-#   name = "Projects"
-#   url  = "post/"
-#   weight = 10
+  # Customize copyright value "© 2016 <CUSTOMIZATION>. All Rights Reserved"
+  # [params.footer]
+  #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
