@@ -41,4 +41,4 @@ Please see their website for opening hours.
 There's no Opening event... just come along whenever you fancy a trip to the Lakes. If I possibly can I'll meet up with you if you contact me. It's a lively place to go... all sorts on.
 
 ## Solo exhibition
-I have an upcoming solo exhibition at [The Gallery at St. George's House](https://www.facebook.com/TheGalleryAtSGH/), on weekdays from 25th September to 3rd November. If you're in the area, I'd love to see you there!
+I have an upcoming solo exhibition at [The Gallery at St. George's House](https://www.facebook.com/TheGalleryAtSGH/), on weekdays from 11th September to 30th October. If you're in the area, I'd love to see you there!
