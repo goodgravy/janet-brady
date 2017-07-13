@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Janet Brady: artist</title>
+    <link>//artistjanet.com/project/</link>
+    <description>Recent content in Projects on Janet Brady: artist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Feb 2017 17:05:26 +0100</lastBuildDate>
+    
+	<atom:link href="//artistjanet.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Neo exhibition</title>
+      <link>//artistjanet.com/project/pictures-from-bolton/</link>
+      <pubDate>Mon, 06 Feb 2017 17:05:26 +0100</pubDate>
+      
+      <guid>//artistjanet.com/project/pictures-from-bolton/</guid>
+      <description>This collection is from St George&amp;rsquo;s Gallery. Pop into neo: gallery in the MarketPlace&amp;hellip; I&amp;rsquo;m proud to be part of this cutting edge contemporary art group!</description>
+    </item>
+    
+    <item>
+      <title>Pembrokeshire</title>
+      <link>//artistjanet.com/project/pembrokeshire/</link>
+      <pubDate>Mon, 16 Jan 2017 15:59:00 +0100</pubDate>
+      
+      <guid>//artistjanet.com/project/pembrokeshire/</guid>
+      <description>Here is some work from a short trip in November 2016.</description>
+    </item>
+    
+    <item>
+      <title>Re:allotted</title>
+      <link>//artistjanet.com/project/re-allotted/</link>
+      <pubDate>Sun, 15 Jan 2017 16:23:56 +0100</pubDate>
+      
+      <guid>//artistjanet.com/project/re-allotted/</guid>
+      <description>Here is some of the work I&amp;rsquo;m exhibiting at St George&amp;rsquo;s Gallery, Bolton this February. I&amp;rsquo;ve made collagraphs out of some sketches I did visiting various allotments.
+I&amp;rsquo;ve been fascinated to find out about the network of fungi in the soil beneath that lives in a symbiotic relationship with the plants above. It reminds me of the internet and the way we might also live in a symbiotic relationship with each other.</description>
+    </item>
+    
+    <item>
+      <title>Limestone Country Arnside</title>
+      <link>//artistjanet.com/project/arnside/</link>
+      <pubDate>Sun, 09 Oct 2016 18:42:04 +0100</pubDate>
+      
+      <guid>//artistjanet.com/project/arnside/</guid>
+      <description>This work is about the ancient limestone landscape around Arnside.</description>
+    </item>
+    
+  </channel>
+</rss>
